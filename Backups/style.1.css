@@ -1,0 +1,96 @@
+body 
+{
+    background-color:white;
+    margin:24px 24px 24px 24px;
+    text-align:center;
+
+}
+
+#webPage
+{
+    width:960px;
+    display:inline-block;
+}
+
+a:hover  /* Turns black when the cursor is pointing to it */
+{
+    background-color:#9b9997;
+}
+
+.header
+{
+    margin:0px;
+    padding:24px 0px 24px 0px;
+    background-color:#f0f0f0;
+    text-align:center;
+    width:960px;
+}
+
+.navigationBar /* Used for the Navigation Bar */
+{
+    margin:24px 0px 24px 0px;
+    padding:0px;
+    width:180px;
+    clear:both;
+    float:left;
+    height:200px;
+    background-color:#f0f0f0;
+}
+
+.navigationBarButton    /* For the navigation bar buttons */
+{
+    font-size:20px;
+    font-family:'Times New Roman', Verdana;
+    padding:5px 20px;
+    width:140px;
+    text-decoration:none;
+    background-color:#f0f0f0;
+    color:black;
+    text-align:left;
+    float:left;
+}
+
+#activePage
+{
+    background-color:#dff3b1;
+}
+
+#picWelcome
+{
+    float:right;
+    margin:24px 0px 24px 0px;
+    border:20px solid #f0f0f0;
+}
+
+.pageContent  /* Section that contains the images and text */
+{
+    width:780px;
+    font-family:'Times New Roman';
+    color:#3d3a42;
+    margin:0px;
+    padding:0px;
+    float:left;
+    text-align:left;
+}
+
+#footerLink
+{
+    font-size:15px;
+}
+
+.footer /* Used for the Footer */
+{
+    margin:0px;
+    padding:0px;
+    width:960px;
+    clear:both;
+    float:left;
+    background-color:#f0f0f0;
+}
+
+p
+{
+    font-family:'Times New Roman', Verdana;
+    font-size:18px;
+    margin:24px 24px 24px 24px;
+}
