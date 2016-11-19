@@ -174,3 +174,9 @@ p
 {
     text-align:left; margin:10px;
 }
+
+.multipleImageCorrect /* When the page has multiple pictures, I noticed that the first div is repositioned 8px to the right. This class is to correct it */
+{
+    position:relative; 
+    left:8px;
+}
