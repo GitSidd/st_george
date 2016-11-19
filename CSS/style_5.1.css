@@ -31,10 +31,8 @@ a:hover  /* Turns black when the cursor is pointing to it */
     margin:24px 0px 24px 0px;
     padding:0px;
     width:960px;
-    clear:both;
-    float:none;
+    height:33px;
     background-color:#f0f0f0;
-    height:30px;
 }
 
 .navigationBarButton    /* For the navigation bar buttons */
@@ -42,7 +40,6 @@ a:hover  /* Turns black when the cursor is pointing to it */
     font-size:20px;
     font-family:'Times New Roman', Verdana;
     padding:5px 20px;
-    width:140px;
     text-decoration:none;
     background-color:#f0f0f0;
     color:black;
@@ -78,7 +75,7 @@ a:hover  /* Turns black when the cursor is pointing to it */
 
 #footer /* Used for the Footer */
 {
-    margin:0px;
+    margin:25px 0px 0px 0px;
     padding:0px;
     width:960px;
     display:inline-block;
@@ -95,13 +92,11 @@ p
 }
 
 .contentwords{
-    text-align: center;
-    height: 535px;
+    text-align: left;
+    height: 398px;
     width: 300px;
-     margin:24px 0px 24px 0px;
+    margin:24px 0px 24px 0px;
     border:20px solid #f0f0f0;
-    
-    
 }
 
 #footerLink
@@ -110,4 +105,72 @@ p
     width:auto;
     margin:0px;
     padding:10px;
+}
+
+.flip-container {
+	perspective: 1000px;
+	display: inline-block;
+    margin: 0px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 400px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.name
+{
+    font-size:20px;
+    color:white;
+}
+
+
+
+.oneNextTheOther
+{
+    width:320px;
+    display:inline-block;
+}
+
+#left {
+    
+    float: left;
+}
+
+#flipText
+{
+    text-align:left; margin:10px;
 }

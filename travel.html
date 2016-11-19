@@ -1,9 +1,77 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title>St. George Staten Island</title>
+        <link href="CSS/style_5.1.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
     </head>
+    
     <body>
+        <!.. Webpage ..!>
+        <div id="webPage">
+            <!.. HEADER ..!>
+            <h1 class="header">S T.   G E O R G E  -  STATEN ISLAND</h1>
+<!-- The part above is the same for each page -->
+<!............................................................................!>            
+<!............................................................................!>
+            <!--NAVIGATION BAR-->
+            <div class="navigationBar">
+                <a class="navigationBarButton" href="index.html">Home</a>
+                <a class="navigationBarButton" href="entertainment.html">Entertainment</a>
+                <a class="navigationBarButton" href="travel.html" id="activePage">Travel</a>
+                <a class="navigationBarButton" href="notableplaces.html">Notable Places</a>
+            </div>
+<!............................................................................!>
+            <!--PAGE CONTENT-->
+           
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');" id="left">
+	    <div class="flipper">
+			<div class="front" style="background: url(Images/Staten_Island_Ferry.JPG) 0 0 no-repeat;">
+				<span class="name">STATEN ISLAND FERRY</span>
+			</div>
+			<div class="back" style="background:#f8f8f8;">
+				<div class="back-logo"></div>
+				<div class="back-title">Staten Island Ferry</div> <br> <br>
+				<p id="flipText">The Staten Island Ferry operates between the St. George ferry terminal on Staten Island and the Whitehall Terminal in Lower Manhattan. The trip is about 25 minutes long and it is free. It moves 22 million passengers a year between the St. George ferry terminal on Staten Island and the Whitehall Terminal in Lower Manhattan.</p>
+			</div>
+		</div>
+	</div>
+     
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');" id="left">
+	    <div class="flipper">
+			<div class="front" style="background: url(Images/train.JPG) 0 0 no-repeat;">
+				<span class="name">TRAIN STATION</span>
+			</div>
+			<div class="back" style="background:#f8f8f8;">
+				<div class="back-logo"></div>
+				<div class="back-title">Staten Island Railway</div> <br> <br>
+				<p id="flipText">MTA Staten Island Railway (SIR) service runs 24 hours daily between the St.  George ferry terminal and Tottenville stations.  At the St.  George station, customers can make connections with the Staten Island Ferry service.</p>
+			</div>
+		</div>
+	</div>
 
+    <div class="flip-container" ontouchstart="this.classList.toggle('hover');" id="left">
+	    <div class="flipper">
+			<div class="front" style="background: url(Images/bus.jpg) 0 0 no-repeat;">
+				<span class="name">BUS</span>
+			</div>
+			<div class="back" style="background:#f8f8f8;">
+				<div class="back-logo"></div>
+				<div class="back-title">Bus</div> <br> <br>
+				<p id="flipText">The Metropolitan Transit Authority (MTA) operates a number of bus routes that run to and from the St.  George ferry terminal of the Staten Island Ferry.  Bus service runs 24 hour daily.</p>
+			</div>
+		</div>
+	</div>
+            
+<!............................................................................!>            
+<!............................................................................!>  
+<!.. The part below is the same for each page ..!>
+            <!--FOOTER-->
+            <div id="footer">
+              
+                <p class="navigationBarButton" id="footerLink" style="float:right;">Tyron/Sean/Sidi</a>
+                <p class="navigationBarButton" id="footerLink" style="float:left;">NYPL HTML/CSS Student Project 2016</p>
+            </div>
+        </div>
     </body>
 </html>

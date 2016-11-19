@@ -1,0 +1,114 @@
+body 
+{
+    text-align:center;
+    background-color:#cccccc;
+}
+
+#webPage
+{
+    width:960px;
+    display:inline-block;
+}
+
+a:hover  /* Turns black when the cursor is pointing to it */
+{
+    background-color:#fe5e41;
+}
+
+.header
+{
+    margin:0px;
+    padding:24px 0px 24px 0px;
+    background-color:#f0f0f0;
+    text-align:center;
+    width:960px;
+    font-family: 'Share Tech Mono', monospace, 'Times New Roman', Verdana;  /* Using Google fonts */  
+}
+
+
+.navigationBar /* Used for the Navigation Bar */
+{
+    margin:24px 0px 24px 0px;
+    padding:0px;
+    width:960px;
+    height:33px;
+    background-color:#f0f0f0;
+}
+
+.navigationBarButton    /* For the navigation bar buttons */
+{
+    font-size:20px;
+    font-family:'Times New Roman', Verdana;
+    padding:5px 20px;
+    text-decoration:none;
+    background-color:#f0f0f0;
+    color:black;
+    text-align:center;
+    float:left;
+}
+
+#activePage
+{
+    background-color:#9b9997;
+}
+
+#picWelcome
+{
+    float:right;
+     margin:24px 0px 24px 0px;
+    border:20px solid #f0f0f0;
+    position: relative; left: 180px;
+   
+}
+
+.pageContent  /* Section that contains the images and text */
+{
+    width:780px;
+    color:#3d3a42;
+    margin:0px;
+    padding:0px;
+    float:left;
+    text-align:left;
+}
+
+
+
+#footer /* Used for the Footer */
+{
+    margin:0px;
+    padding:0px;
+    width:960px;
+    display:inline-block;
+    clear:both;
+    background-color:#f0f0f0;
+}
+
+p
+{
+    font-family:'Times New Roman', Verdana;
+    font-size:18px;
+    margin:24px 24px 24px 24px;
+    float:left;
+}
+
+.contentwords{
+    text-align: left;
+    height: 398px;
+    width: 300px;
+    margin:24px 0px 24px 0px;
+    border:20px solid #f0f0f0;
+    
+    
+}
+
+#footerLink
+{
+    font-size:15px;
+    width:auto;
+    margin:0px;
+    padding:10px;
+}
+
+#left {
+    float: right
+}
